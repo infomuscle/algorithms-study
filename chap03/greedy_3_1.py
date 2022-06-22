@@ -10,5 +10,6 @@ def solution(n: int):
 
 
 n1 = 1260
-
 print(solution(n1))
+
+# Given the number of coin types is K, time complexity is O(K). It isn't affected by N, the amount of money.
