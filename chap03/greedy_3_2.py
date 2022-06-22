@@ -3,10 +3,10 @@ import random
 
 def solution1(nums, m, k):
     nums.sort(reverse=True)
-    return sum([_num_decision(i, k, nums[0], nums[1]) for i in range(m)])
+    return sum([__num_decision(i, k, nums[0], nums[1]) for i in range(m)])
 
 
-def _num_decision(i, k, first, second):
+def __num_decision(i, k, first, second):
     return second if (i + 1) % (k + 1) == 0 else first
 
 
